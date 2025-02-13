@@ -43,7 +43,7 @@ jobs:
         if: steps.changesets.outputs.published == 'true'
         with:
           notification_title: "Published MCP Server Packages"
-          message_format: ${{ changesets.publishedPackages }}
+          message_format: ${{ steps.changesets.outputs.publishedPackages }}
           status: ${{ job.status }}
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
