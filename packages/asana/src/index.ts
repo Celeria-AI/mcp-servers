@@ -5,7 +5,6 @@ import { z } from "zod";
 // Constants
 const ASANA_API_BASE = "https://app.asana.com/api/1.0";
 
-// Create server instance
 const server = new McpServer({
   name: "asana",
   version: "1.0.0",
