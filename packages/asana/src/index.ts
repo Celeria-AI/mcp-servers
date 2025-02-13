@@ -11,7 +11,6 @@ const server = new McpServer({
   version: "1.0.0",
 });
 
-// Helper function for making authenticated Asana API requests
 async function makeAsanaRequest(endpoint: string, method = 'GET', body?: any) {
   const token = process.env.ASANA_ACCESS_TOKEN;
   if (!token) {
