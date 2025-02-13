@@ -6,6 +6,7 @@
     "clean": "turbo clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
+    "ci:version": "changeset version",
     "ci:release": "turbo build && changeset publish"
   },
   "devDependencies": {
