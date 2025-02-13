@@ -32,7 +32,6 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: pnpm ci:version-packages
           publish: pnpm ci:release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,6 +41,8 @@ jobs:
         uses: ravsamhq/notify-slack-action@v2
         if: steps.changesets.outputs.published == 'true'
         with:
+          notification_title: "Published MCP Server Packages"
+          message_format: ${{ changesets.publishedPackages }}
           status: ${{ job.status }}
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

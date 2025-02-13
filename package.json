@@ -6,7 +6,6 @@
     "clean": "turbo clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
-    "ci:version-packages": "changeset version && pnpm install --no-frozen-lockfile",
     "ci:release": "turbo build && changeset publish"
   },
   "devDependencies": {
