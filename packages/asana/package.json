@@ -6,7 +6,7 @@
     "access": "public"
   },
   "bin": {
-    "asana-mcp": "dist/src/index.js"
+    "asana-mcp": "./dist/index.js"
   },
   "files": [
     "dist"
