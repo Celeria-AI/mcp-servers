@@ -1,5 +1,11 @@
 # @celeria-ai/asana-mcp
 
+## 0.1.10
+
+### Patch Changes
+
+- 466e1a4: fixed bin path in package.json
+
 ## 0.1.9
 
 ### Patch Changes
