@@ -1,5 +1,11 @@
 # @celeria-ai/asana-mcp
 
+## 0.1.9
+
+### Patch Changes
+
+- 8043af8: fixed tsup config for asana
+
 ## 0.1.8
 
 ### Patch Changes
