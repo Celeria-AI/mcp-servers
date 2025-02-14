@@ -1,5 +1,11 @@
 # @celeria-ai/asana-mcp
 
+## 0.1.8
+
+### Patch Changes
+
+- 3450ec0: fixed package not being executable
+
 ## 0.1.7
 
 ### Patch Changes
