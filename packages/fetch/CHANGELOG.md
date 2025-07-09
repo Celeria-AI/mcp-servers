@@ -1,5 +1,11 @@
 # @celeria-ai/fetch-mcp
 
+## 1.3.0
+
+### Minor Changes
+
+- 9fdcac9: config fix
+
 ## 1.2.0
 
 ### Minor Changes
