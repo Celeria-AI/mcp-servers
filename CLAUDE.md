@@ -6,6 +6,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a TypeScript monorepo containing MCP (Model Context Protocol) servers developed by Celeria. The project uses pnpm workspaces, Turborepo for build orchestration, and Changesets for version management. Each package is a standalone MCP server that can be published to npm and used as a command-line tool.
 
+## MCP Reference Documentation
+
+When working on MCP server implementations, always reference the official MCP documentation:
+- **MCP Specification**: https://modelcontextprotocol.io/llms-full.txt
+- This contains the complete protocol specification, message formats, and implementation guidance
+
 ## Development Commands
 
 ### Essential Commands
