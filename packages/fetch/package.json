@@ -18,7 +18,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.4.1",
+    "@modelcontextprotocol/sdk": "^1.15.0",
     "zod": "^3.24.1",
     "@mozilla/readability": "^0.5.0",
     "jsdom": "^25.0.1",
