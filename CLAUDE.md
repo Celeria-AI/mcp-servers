@@ -60,16 +60,6 @@ Each package uses identical configuration:
 - **package.json**: Consistent scripts, dependencies, and publishing config
 - **tsconfig.json**: TypeScript configuration for Node.js ES modules
 
-## Environment Variables
-
-### Asana MCP Server
-- `ASANA_ACCESS_TOKEN` - Required for Asana API access
-
-### Mixpanel MCP Server  
-- `MIXPANEL_USERNAME` - Required for Mixpanel API access
-- `MIXPANEL_SECRET` - Required for Mixpanel API access
-- `MIXPANEL_PROJECT_ID` - Optional project ID filter
-
 ## Testing and Quality
 
 The project currently uses:
