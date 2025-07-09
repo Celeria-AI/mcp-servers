@@ -7,7 +7,4 @@ export default defineConfig({
   minify: true,
   target: "esnext",
   outDir: "dist",
-  banner: {
-    js: "#!/usr/bin/env node",
-  },
 });
