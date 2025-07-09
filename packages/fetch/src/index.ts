@@ -98,11 +98,12 @@ async function fetchUrl(url: string, userAgent: string, forceRaw: boolean = fals
 // Tool to fetch web content
 server.tool(
   "fetch",
+  "Fetches a URL from the internet and extracts its contents as markdown. Can handle HTML pages, JSON APIs, and other web content.",
   {
-    url: z.string().url(),
-    max_length: z.number().min(1).max(1000000).optional().default(5000),
-    start_index: z.number().min(0).optional().default(0),
-    raw: z.boolean().optional().default(false),
+    url: z.string().url().describe("The URL to fetch content from"),
+    max_length: z.number().min(1).max(1000000).optional().default(5000).describe("Maximum number of characters to return"),
+    start_index: z.number().min(0).optional().default(0).describe("Starting character index for content extraction, useful for pagination"),
+    raw: z.boolean().optional().default(false).describe("If true, returns raw HTML instead of converted markdown"),
   },
   async ({ url, max_length, start_index, raw }) => {
     try {
