@@ -1,5 +1,11 @@
 # @celeria-ai/fetch-mcp
 
+## 1.1.0
+
+### Minor Changes
+
+- 850ef3d: Fix package config
+
 ## 1.0.0
 
 ### Major Changes
